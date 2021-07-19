@@ -29,4 +29,7 @@ async getAll() {
       window.alert("Something went wrong: " + error)
     }
   }
+  shuffle(){
+      triviasService.shuffle()
+  }
 }
