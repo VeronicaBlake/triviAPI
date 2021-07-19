@@ -1,4 +1,4 @@
 export const api = axios.create({
-  baseURL: 'https://swapi.dev/api',
+  baseURL: 'https://opentdb.com/api.php?amount=10',
   timeout: 4000
 })
